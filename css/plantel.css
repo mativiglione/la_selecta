@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;400;500;700&display=swap');
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.3fr repeat(3, 1fr) 0.5fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    background-color: rgb(235, 232, 232);
+}
+
+.header-grid {
+    grid-area: 1 / 1 / 2 / 6;
+    background-color: rgb(20, 137, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.header-nav {
+    width: 60%;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-paginas {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 40px;
+    display: flex;
+    font-style: normal;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.header-logo {
+    width: 70px;
+    height: auto;
+}
+
+.main-plantel {
+    grid-area: 2 / 2 / 5 / 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-foto {
+    margin-top: 10px;
+    width: 33%;
+    text-align: center;
+}
+
+.foto-jugador {
+    width: 60%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 500;
+    color: rgb(20, 137, 214);
+}
+
+h4 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+}
+
+.footer-grid {
+    grid-area: 5 / 1 / 6 / 6;
+    background-color: rgb(20, 137, 214);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    width: 60%;
+}
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-redes {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+}
+
+.footer-foto {
+    width: 35px;
+    height: auto;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: flex-end;
+}
