@@ -34,3 +34,17 @@ a:hover {
 .footer-foto{
     width: 35px;
 }
+
+.nav-size {
+    width: 80%;
+}
+
+.background{
+    background-color: rgb(235, 232, 232);
+}
+
+.imagen-index{
+    box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
