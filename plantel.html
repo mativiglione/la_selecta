@@ -5,118 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/plantel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="imagenes/afa.png" type="image/x-icon">
     <title>La Selecta</title>
 </head>
 
-<body class="parent">
-    <header class="header-grid">
-        <nav class="header-nav">
-            <ul class="header-menu">
-                <li>
-                    <a href="index.html"><img class="header-logo" src="imagenes/afa.png" alt="afa"></a>
-                </li>
-                <ul class="header-paginas">
-                    <li><a href="plantel.html">PLANTEL</a></li>
-                    <li><a href="fixture.html">FIXTURE</a></li>
-                    <li><a href="posiciones.html">POSICIONES</a></li>
-                    <li><a href="videos.html">VIDEOS</a></li>
-                </ul>
-            </ul>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="imagenes/afa.png" alt="afa" width="40px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="plantel.html">PLANTEL</a>
+                        <a class="nav-link" href="posiciones.html">POSICIONES</a>
+                        <a class="nav-link" href="fixture.html">FIXTURE</a>
+                        <a class="nav-link" href="videos.html">VIDEOS</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main class="main-plantel">
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/dibu.png" alt="Emiliano Martinez">
-            <h3>Emiliano Martinez</h3>
-            <h4>Arquero</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/montiel.png" alt="Gonzalo Montiel">
-            <h3>Gonzalo Montiel</h3>
-            <h4>Defensor</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/cuti.png" alt="Cristian Romero">
-            <h3>Cristian Romero</h3>
-            <h4>Defensor</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/lisandro.png" alt="Lisandro Martinez">
-            <h3>Lisandro Martinez</h3>
-            <h4>Defensor</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/acuna.png" alt="Marcos Acuña">
-            <h3>Marcos Acuña</h3>
-            <h4>Defensor</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/paredes.png" alt="Leandro Paredes">
-            <h3>Leandro Paredes</h3>
-            <h4>Mediocampista</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/depaul.png" alt="Rodrigo De Paul">
-            <h3>Rodrigo De Paul</h3>
-            <h4>Mediocampista</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/locelso.png" alt="Giovani Lo Celso">
-            <h3>Giovani Lo Celso</h3>
-            <h4>Mediocampista</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/dimaria.png" alt="Angel Di Maria">
-            <h3>Angel Di Maria</h3>
-            <h4>Delantero</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/messi.png" alt="Lionel Messi">
-            <h3>Lionel Messi</h3>
-            <h4>Delantero</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/lautaro.png" alt="Lautaro Martinez">
-            <h3>Lautaro Martinez</h3>
-            <h4>Delantero</h4>
-        </div>
-        <div class="contenedor-foto">
-            <img class="foto-jugador" src="imagenes/scaloni.png" alt="Lionel Scaloni">
-            <h3>Lionel Scaloni</h3>
-            <h4>Director Tecnico</h4>
-        </div>
+    <main class="plantel-index">
+        <section class="container mt-3 mb-3">
+            <span>
+                <h1>TITULARES</h1>
+            </span>
+            <span class="row mt-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/dibu.png" alt="Emiliano Martinez">
+                    <h3>Emiliano Martinez</h3>
+                    <h5>Arquero</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/montiel.png" alt="Gonzalo Montiel">
+                    <h3>Gonzalo Montiel</h3>
+                    <h5>Defensor</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/cuti.png" alt="Cristian Romero">
+                    <h3>Cristian Romero</h3>
+                    <h5>Defensor</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/lisandro.png" alt="Lisandro Martinez">
+                    <h3>Lisandro Martinez</h3>
+                    <h5>Defensor</h5>
+                </div>
+            </span>
+
+            <span class="row mt-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/acuna.png" alt="Marcos Acuña">
+                    <h3>Marcos Acuña</h3>
+                    <h5>Defensor</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/paredes.png" alt="Leandro Paredes">
+                    <h3>Leandro Paredes</h3>
+                    <h5>Mediocampista</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/depaul.png" alt="Rodrigo De Paul">
+                    <h3>Rodrigo De Paul</h3>
+                    <h5>Mediocampista</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/locelso.png" alt="Giovani Lo Celso">
+                    <h3>Giovani Lo Celso</h3>
+                    <h5>Mediocampista</h5>
+                </div>
+            </span>
+
+            <span class="row mt-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/dimaria.png" alt="Angel Di Maria">
+                    <h3>Angel Di Maria</h3>
+                    <h5>Delantero</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/messi.png" alt="Lionel Messi">
+                    <h3>Lionel Messi</h3>
+                    <h5>Delantero</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/lautaro.png" alt="Lautaro Martinez">
+                    <h3>Lautaro Martinez</h3>
+                    <h5>Delantero</h5>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img class="img-fluid" src="imagenes/scaloni.png" alt="Lionel Scaloni">
+                    <h3>Lionel Scaloni</h3>
+                    <h5>Director Tecnico</h5>
+                </div>
+            </span>
+
+        </section>
+
     </main>
 
-    <footer class="footer-grid">
-        <nav class="footer-nav">
-            <ul class="footer-menu">
-                <li>
-                    <a href="index.html"><img class="footer-logo" src="imagenes/afa.png" alt="afa"></a>
-                </li>
-                <ul class="footer-redes">
-                    <li>
-                        <a class="footer-item" href=""><img class="footer-foto" src="imagenes/youtube.png"
-                                alt="youtube"></a>
-                    </li>
-                    <li>
-                        <a class="footer-item" href=""><img class="footer-foto" src="imagenes/instagram.png"
-                                alt="instagram"></a>
-                    </li>
-                    <li>
-                        <a class="footer-item" href=""><img class="footer-foto" src="imagenes/facebook.png"
-                                alt="facebook"></a>
-                    </li>
-                    <li>
-                        <a class="footer-item" href=""><img class="footer-foto" src="imagenes/twitter.png"
-                                alt="twitter"></a>
-                    </li>
-                </ul>
-            </ul>
+    <footer>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/afa.png" alt="afa">
+                </a>
+                <a class="navbar-brand" href="https://www.instagram.com/afaseleccion/?hl=es" target="_blank">
+                    <img src="imagenes/instagram.png" alt="instagram">
+                </a>
+                <a class="navbar-brand" href="https://twitter.com/afa?s=20&t=SP2ZUnWR_xkli-LY7LDqog" target="_blank">
+                    <img src="imagenes/twitter.png" alt="twitter">
+                </a>
+                <a class="navbar-brand" href="https://www.youtube.com/user/AFASeleccion/featured" target="_blank">
+                    <img src="imagenes/youtube.png" alt="youtube">
+                </a>
+                <a class="navbar-brand" href="https://www.facebook.com/AFAOFICIAL/" target="_blank">
+                    <img src="imagenes/facebook.png" alt="facebook">
+                </a>
+            </div>
         </nav>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

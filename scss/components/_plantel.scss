@@ -1,0 +1,45 @@
+.plantel-index {
+    section {
+        span {
+            h1 {
+                text-align: center;
+                justify-content: center;
+                font-family: 'Anek Telugu', sans-serif;
+                font-weight: 1000;
+                color: rgb(20, 137, 214);
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    width: 80%;
+                }
+
+                h3 {
+                    text-align: center;
+                    justify-content: center;
+                    font-family: 'Anek Telugu', sans-serif;
+                    font-weight: 500;
+                    color: rgb(20, 137, 214);
+                    margin-top: 10px;
+                }
+
+                h5 {
+                    text-align: center;
+                    justify-content: center;
+                    font-family: 'Anek Telugu', sans-serif;
+                    font-weight: 400;
+                    color: black;
+                    margin-top: -15px;
+                }
+            }
+
+            div:hover {
+                transform: scale(1.03, 1.03);
+            }
+        }
+    }
+}
