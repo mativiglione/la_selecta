@@ -84,22 +84,22 @@ footer nav div a img {
   width: 100%;
 }
 
-.plantel-index section span h1 {
+.main-plantel section span h1 {
   text-align: center;
   justify-content: center;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: rgb(20, 137, 214);
 }
-.plantel-index section span div {
+.main-plantel section span div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.plantel-index section span div img {
+.main-plantel section span div img {
   width: 80%;
 }
-.plantel-index section span div h3 {
+.main-plantel section span div h3 {
   text-align: center;
   justify-content: center;
   font-family: "Anek Telugu", sans-serif;
@@ -107,7 +107,7 @@ footer nav div a img {
   color: rgb(20, 137, 214);
   margin-top: 10px;
 }
-.plantel-index section span div h5 {
+.main-plantel section span div h5 {
   text-align: center;
   justify-content: center;
   font-family: "Anek Telugu", sans-serif;
@@ -115,8 +115,48 @@ footer nav div a img {
   color: black;
   margin-top: -15px;
 }
-.plantel-index section span div:hover {
+.main-plantel section span div:hover {
   transform: scale(1.03, 1.03);
+}
+
+.posiciones-main span h1 {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: rgb(20, 137, 214);
+  margin-top: 10px;
+}
+.posiciones-main table thead tr th {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: white;
+}
+.posiciones-main table tbody tr th {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: black;
+}
+.posiciones-main table tbody tr .pais {
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.posiciones-main table tbody tr .pais img {
+  margin-right: 10px;
+}
+.posiciones-main table tbody tr img:hover {
+  transform: scale(1.03, 1.03);
+}
+.posiciones-main table tbody tr td {
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: black;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
