@@ -21,18 +21,24 @@ header nav {
     font-size: 100%;
   }
 }
-header nav div {
+header nav .contenedor-secciones {
   width: 80%;
 }
-header nav div a:link {
+@media screen and (min-width: 992px) {
+  header nav .contenedor-secciones .header-secciones {
+    display: flex;
+    justify-content: end;
+  }
+}
+header nav .contenedor-secciones a:link {
   color: white;
   text-decoration: none;
 }
-header nav div a:visited {
+header nav .contenedor-secciones a:visited {
   color: white;
   text-decoration: none;
 }
-header nav div a:hover {
+header nav .contenedor-secciones a:hover {
   color: black;
   text-decoration: none;
 }
