@@ -1,60 +1,62 @@
-.posiciones-main {
-    span {
-        h1 {
-            text-align: center;
-            font-family: 'Anek Telugu', sans-serif;
-            font-weight: 1000;
-            color: rgb(20, 137, 214);
-            margin-top: 10px;
-        }
-    }
-
-    table {
-        thead {
-            tr {
-                th {
-                    text-align: center;
-                    font-family: 'Anek Telugu', sans-serif;
-                    font-weight: 1000;
-                    color: white;
-                }
+.main-posiciones {
+    section {
+        span {
+            h1 {
+                text-align: center;
+                font-family: 'Anek Telugu', sans-serif;
+                font-weight: 1000;
+                color: rgb(20, 137, 214);
             }
         }
 
-        tbody {
-            tr {
-                th {
-                    text-align: center;
-                    font-family: 'Anek Telugu', sans-serif;
-                    font-weight: 1000;
-                    color: black;
-                }
-
-                .pais {
-                    font-family: 'Anek Telugu', sans-serif;
-                    font-weight: 1000;
-                    color: black;
-                    display: flex;
-                    justify-content: start;
-                    align-items: center;
-
-
-                    img {
-                        margin-right: 10px;
+        table {
+            thead {
+                tr {
+                    th {
+                        text-align: center;
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: white;
                     }
                 }
+            }
 
-                img:hover {
-                    transform: scale(1.03, 1.03);
-                }
+            tbody {
+                tr {
+                    th {
+                        text-align: center;
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: black;
+                    }
 
-                td {
-                    font-family: 'Anek Telugu', sans-serif;
-                    font-weight: 1000;
-                    color: black;
-                    text-align: center;
+                    .pais {
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: black;
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+
+
+                        img {
+                            margin-right: 10px;
+                        }
+                    }
+
+                    img:hover {
+                        transform: scale(1.03, 1.03);
+                    }
+
+                    td {
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: black;
+                        text-align: center;
+                    }
                 }
             }
         }
     }
+
 }

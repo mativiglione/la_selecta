@@ -14,6 +14,7 @@ header nav {
   font-weight: 700;
   font-size: 120%;
   background-color: rgb(20, 137, 214);
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 600px) {
   header nav {
@@ -38,6 +39,7 @@ header nav div a:hover {
 
 footer nav {
   background-color: rgb(20, 137, 214);
+  margin-top: 10px;
 }
 footer nav div a img {
   width: 35px;
@@ -66,6 +68,14 @@ footer nav div a img {
   margin-top: -15px;
 }
 
+.videos-main section span h1 {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: rgb(20, 137, 214);
+  margin-top: 10px;
+}
+
 .video-responsive {
   height: 0;
   overflow: hidden;
@@ -86,7 +96,6 @@ footer nav div a img {
 
 .main-plantel section span h1 {
   text-align: center;
-  justify-content: center;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: rgb(20, 137, 214);
@@ -119,26 +128,25 @@ footer nav div a img {
   transform: scale(1.03, 1.03);
 }
 
-.posiciones-main span h1 {
+.main-posiciones section span h1 {
   text-align: center;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: rgb(20, 137, 214);
-  margin-top: 10px;
 }
-.posiciones-main table thead tr th {
+.main-posiciones section table thead tr th {
   text-align: center;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: white;
 }
-.posiciones-main table tbody tr th {
+.main-posiciones section table tbody tr th {
   text-align: center;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: black;
 }
-.posiciones-main table tbody tr .pais {
+.main-posiciones section table tbody tr .pais {
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: black;
@@ -146,13 +154,13 @@ footer nav div a img {
   justify-content: start;
   align-items: center;
 }
-.posiciones-main table tbody tr .pais img {
+.main-posiciones section table tbody tr .pais img {
   margin-right: 10px;
 }
-.posiciones-main table tbody tr img:hover {
+.main-posiciones section table tbody tr img:hover {
   transform: scale(1.03, 1.03);
 }
-.posiciones-main table tbody tr td {
+.main-posiciones section table tbody tr td {
   font-family: "Anek Telugu", sans-serif;
   font-weight: 1000;
   color: black;
