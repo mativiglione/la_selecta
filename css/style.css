@@ -159,4 +159,31 @@ footer nav div a img {
   text-align: center;
 }
 
+.main-fixture section span h1 {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: rgb(20, 137, 214);
+  margin-top: 10px;
+}
+.main-fixture section div span table thead tr {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: rgb(20, 137, 214);
+  font-size: 130%;
+}
+.main-fixture section div span table tbody tr {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: black;
+}
+.main-fixture section div span table tbody img {
+  margin-right: 10px;
+}
+.main-fixture section div span table tbody .img-visitante {
+  margin-left: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

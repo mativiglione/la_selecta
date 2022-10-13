@@ -1,0 +1,45 @@
+.main-fixture {
+    section {
+        span{
+            h1{
+                text-align: center;
+            font-family: 'Anek Telugu', sans-serif;
+            font-weight: 1000;
+            color: rgb(20, 137, 214);
+            margin-top: 10px;
+            }
+        }
+        div {
+            span {
+                table {
+                    thead {
+                        tr {
+                            text-align: center;
+                            font-family: 'Anek Telugu', sans-serif;
+                            font-weight: 1000;
+                            color: rgb(20, 137, 214);
+                            font-size: 130%;
+                        }
+                    }
+
+                    tbody {
+                        tr {
+                            text-align: center;
+                            font-family: 'Anek Telugu', sans-serif;
+                            font-weight: 1000;
+                            color: black;
+                        }
+
+                        img {
+                            margin-right: 10px;
+                        }
+
+                        .img-visitante{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
