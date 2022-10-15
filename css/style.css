@@ -58,7 +58,7 @@ footer nav div a img {
   margin-bottom: 5px;
 }
 .main-index section div img:hover {
-  transform: scale(1.03, 1.03);
+  transform: scale(1.02, 1.02);
 }
 .main-index section div h1 {
   font-style: normal;
@@ -66,12 +66,24 @@ footer nav div a img {
   font-weight: 700;
   color: rgb(20, 137, 214);
 }
+.main-index section div h2 {
+  font-style: normal;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 700;
+  color: rgb(20, 137, 214);
+  margin-bottom: 15px;
+}
 .main-index section div h6 {
   font-style: normal;
   font-family: "Anek Telugu", sans-serif;
   font-weight: 400;
   text-align: center;
   margin-top: -15px;
+}
+@media screen and (max-width: 1199px) {
+  .main-index section div .nota-sec {
+    display: none;
+  }
 }
 
 .videos-main section span h1 {
