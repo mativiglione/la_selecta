@@ -35,9 +35,9 @@
                 margin-top: -15px;
             }
 
-            @media screen and (max-width:1199px) {
+            @media screen and (max-width:1199px) and (min-width:992px) {
                 .nota-sec {
-                    display: none;
+                    display: none !important;
                 }
             }
         }
