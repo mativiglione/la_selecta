@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(235, 232, 232);
+  background-color: rgb(202, 202, 202);
 }
 
 header nav {
@@ -51,7 +51,7 @@ footer nav div a img {
   width: 35px;
 }
 
-.main-index section div img {
+.main-index section div .foto-nota {
   box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
@@ -80,10 +80,33 @@ footer nav div a img {
   text-align: center;
   margin-top: -15px;
 }
-@media screen and (max-width: 1199px) and (min-width: 992px) {
-  .main-index section div .nota-sec {
-    display: none !important;
-  }
+.main-index section div a:link {
+  text-decoration: none;
+}
+.main-index section div a:visited {
+  text-decoration: none;
+}
+.main-index section div a:hover {
+  text-decoration: none;
+}
+.main-index section div table thead tr {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: rgb(20, 137, 214);
+  font-size: 130%;
+}
+.main-index section div table tbody tr {
+  text-align: center;
+  font-family: "Anek Telugu", sans-serif;
+  font-weight: 1000;
+  color: black;
+}
+.main-index section div table tbody img {
+  margin-right: 10px;
+}
+.main-index section div table tbody .img-visitante {
+  margin-left: 10px;
 }
 
 .videos-main section span h1 {
@@ -171,6 +194,11 @@ footer nav div a img {
   display: flex;
   justify-content: start;
   align-items: center;
+}
+@media screen and (max-width: 991px) {
+  .main-posiciones section table tbody tr .pais {
+    font-size: 70%;
+  }
 }
 .main-posiciones section table tbody tr .pais img {
   margin-right: 10px;

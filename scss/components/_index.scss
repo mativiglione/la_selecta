@@ -1,7 +1,7 @@
 .main-index {
     section {
         div {
-            img {
+            .foto-nota {
                 box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
                 -webkit-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
                 -moz-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
@@ -35,9 +35,44 @@
                 margin-top: -15px;
             }
 
-            @media screen and (max-width:1199px) and (min-width:992px) {
-                .nota-sec {
-                    display: none !important;
+            a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            table {
+                thead {
+                    tr {
+                        text-align: center;
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: rgb(20, 137, 214);
+                        font-size: 130%;
+                    }
+                }
+
+                tbody {
+                    tr {
+                        text-align: center;
+                        font-family: 'Anek Telugu', sans-serif;
+                        font-weight: 1000;
+                        color: black;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+
+                    .img-visitante {
+                        margin-left: 10px;
+                    }
                 }
             }
         }

@@ -38,6 +38,10 @@
                         justify-content: start;
                         align-items: center;
 
+                        @media screen and (max-width:991px) {
+                            font-size: 70%;
+                        }
+
 
                         img {
                             margin-right: 10px;
@@ -58,5 +62,4 @@
             }
         }
     }
-
 }
